@@ -82,7 +82,7 @@ def pregunta_03():
     y_life = df['life'].values.reshape(-1, 1)
 
     # Importe LinearRegression
-    from sklearn.linear_modelimport LinearRegression
+    from sklearn.linear_model import LinearRegression
 
     # Cree una instancia del modelo de regresión lineal
     reg = LinearRegression()
